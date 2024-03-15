@@ -8,6 +8,7 @@ export default {
     extend: {
       colors:{
         "nav": "#242021",
+        "botones": "#4F7D3F",
       }
     },
   },
