@@ -1,9 +1,21 @@
+/* eslint-disable no-unused-vars */
 import PropTypes from 'prop-types'
 
-const ButtonGetInfo = ({msg}) => {
+const ButtonGetInfo = ({msg, addStyle}) => {
+  let cn;
+
+  cn = "bg-cursomGreen hover:bg-lime-900 w-80 text-white py-4 rounded-lg text-2xl";
+  if(addStyle) {
+    if(cn.includes(addStyle.split("-")[0])) {
+      cn = cn.replace(new RegExp(`\\b${addStyle.split("-")[0]}-\\S*\\b`), addStyle);
+    } else {
+      cn += addStyle
+    }
+  }
+
   return (
     <>
-      <button className="bg-cursomGreen hover:bg-lime-900 min-w-80 text-white py-4 rounded-lg text-2xl">
+      <button className={cn}>
 				{msg}
 			</button>
     </>
@@ -11,7 +23,9 @@ const ButtonGetInfo = ({msg}) => {
 }
 
 ButtonGetInfo.propTypes = {
-  msg: PropTypes.string
+  msg: PropTypes.string.isRequired,
+  addStyle: PropTypes.string
+
 }
 
 
