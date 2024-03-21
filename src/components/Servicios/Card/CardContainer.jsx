@@ -4,7 +4,7 @@ import info from "../utils/infoCards.js"
 const CardContainer = () => {
 	return (
 		<div className="">
-			<h2 className="text-center text-6xl font-extrabold text-gray-500 my-6">
+			<h2 className="text-center text-6xl font-extrabold text-gray-600 my-6">
 				Excelente experiencia y calidad nos distinguen
 			</h2>
       <div className="flex flex-row justify-center flex-wrap gap-4">
