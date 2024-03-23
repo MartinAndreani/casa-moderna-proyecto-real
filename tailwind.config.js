@@ -8,7 +8,13 @@ export default {
     extend: {
       colors:{
         "nav": "#242021",
-        "botones": "#4F7D3F",
+        "cursomGreen": "#4F7D3F"
+      },
+      fontFamily: {
+        "roboto": ['"Roboto Flex"', 'sans-serif']  
+      },
+      backgroundImage: {
+        "service": "url('images/services-end.png')"
       }
     },
   },
