@@ -2,7 +2,7 @@ import ButtonGetInfo from "../../common/ButtonGetInfo/ButtonGetInfo";
 
 const BannerHome = () => {
 	return (
-		<section className="flex flex-row p-28 gap-5">
+		<section className="flex flex-row p-28 gap-5 py-36" id="home">
 			<div className="flex flex-col justify-center gap-10 basis-1/2 text-left">
 				<p className="text-gray-500 text-xl -my-5">Casa Moderna</p>
 				<div className="flex flex-col gap-10">
