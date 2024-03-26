@@ -5,6 +5,7 @@ import { FaInstagram } from "react-icons/fa"
 import { FaWhatsapp } from "react-icons/fa";
 import { TiLocation } from "react-icons/ti";
 import { MdMailOutline } from "react-icons/md";
+import { Link } from "react-scroll"
 
 
 const Footer = () => {
@@ -13,9 +14,9 @@ const Footer = () => {
         
         {/* LOGO */}
         <div className=' flex justify-center' >
-          <a href="/">
+          <Link  to='home' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>
             <img src={logo} alt="" className='h-28  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 '/>
-          </a>
+          </Link>
         </div>
 
         {/* SERVICIOS */}
@@ -25,11 +26,11 @@ const Footer = () => {
             <hr className='w-20 ' />
           </div>
 
-          <div className='grid gap-2 py-2'  >
+          <div className='grid gap-2 py-2 pr-20 lg:pr-0'  >
             <div><a href="/">Diseño</a></div>
             <div><a href="/">Recidencial</a></div>
             <div><a href="/">Obra Comercial</a></div>
-            <div><a href="/">Remodelación, ampliación y matenimiento</a></div>
+            <div ><a href="/" >Remodelación, ampliación y matenimiento</a></div>
             <div><a href="/">Capacitación</a></div>
           </div>
           
@@ -43,10 +44,12 @@ const Footer = () => {
             <hr className='w-20 ' />
           </div>
           <div className='grid gap-2 py-2'>
-            <div><a href="/">Home</a></div>
-            <div><a href="/">Servicios</a></div>
-            <div><a href="/">Sobre Nosotros</a></div>
-            <div><a href="/">Contacto</a></div>
+            <div><Link to='home' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Home</Link></div>
+            <div><Link  to='home' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Sobre Nosotros</Link></div>
+            <div><Link  to='sistemas' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Sistemas</Link></div>
+            <div><Link  to='servicios' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Servicios</Link></div>
+            <div><Link  to='contacto' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Contacto</Link></div>
+            <div><Link  to='galeria' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Galeria</Link></div>
           </div>
           
         </div>

@@ -3,7 +3,7 @@ import info from "../utils/infoCards.js"
 
 const CardContainer = () => {
 	return (
-		<div className="">
+		<div className="" >
 			<h2 className="text-center text-6xl font-extrabold text-gray-600 my-6">
 				Excelente experiencia y calidad nos distinguen
 			</h2>
