@@ -2,6 +2,7 @@ import BannerHome from './components/Home/BannerHome/BannerHome'
 import Navbar from './components/NavBar/Navbar' 
 import Servicios from './components/Servicios/Servicios'
 import Footer from './components/Footer/Footer'
+import SobreNosotros from './components/SobreNosotros/SobreNosotros'
 
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar/>
       <BannerHome/>
       <Servicios/>
+      <SobreNosotros/>
       <Footer/>
     </div>
   )
