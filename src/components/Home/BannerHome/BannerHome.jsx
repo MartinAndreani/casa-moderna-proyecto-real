@@ -29,15 +29,4 @@ const BannerHome = () => {
 	);
 };
 
-/*
-width: 484px;
-height: 573px;
-top: 273px;
-left: 814px;
-gap: 0px;
-border-radius: 200px 200px 0px 0px;
-opacity: 0px;
-
-*/
-
 export default BannerHome;
