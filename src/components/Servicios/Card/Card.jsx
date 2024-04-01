@@ -3,7 +3,7 @@ import ButtonGetInfo from "../../common/ButtonGetInfo/ButtonGetInfo";
 
 const Card = ({ img, title, body }) => {
 	return (
-		<div className="flex flex-col justify-around bg-white max-w-[393px] max-h-[774px] w-[373px] h-[774px] rounded-md shadow-lg px-2 border">
+		<div className="flex flex-col justify-around bg-white max-w-[393px] max-h-[774px] w-[373px] h-[46rem] rounded-md shadow-lg px-2 border">
 			<img
 				src={`images/servicios/${img}`}
 				alt="Descripción de la imagen"

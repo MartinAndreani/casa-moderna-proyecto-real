@@ -71,7 +71,7 @@ const Navbar = () => {
             {/* BOTON  */}
             <div className='  items-center  text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300  '>
               <a target='_blank' href='https://wa.link/hlvljp'>
-                <ButtonGetInfo msg={"Solicitar cotización"} addStyle={"w-36 h-12 text-sm flex items-center justify-center rounded-2xl "} />
+                <ButtonGetInfo msg={"Solicitar cotización"} addStyle={"w-40 h-12 text-[1rem] flex items-center justify-center rounded-2xl "} />
               </a>
             </div> 
 
