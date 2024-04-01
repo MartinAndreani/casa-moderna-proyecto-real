@@ -2,20 +2,20 @@
 import PropTypes from 'prop-types'
 
 const ButtonGetInfo = ({msg, addStyle}) => {
-  let cn;
+  let className;
 
-  cn = "bg-cursomGreen hover:bg-lime-900 w-80 text-white py-4 rounded-lg text-2xl";
+  className = "bg-cursomGreen hover:bg-lime-900 w-80 text-white py-4 rounded-lg text-[1.4rem]";
   if(addStyle) {
-    if(cn.includes(addStyle.split("-")[0])) {
-      cn = cn.replace(new RegExp(`\\b${addStyle.split("-")[0]}-\\S*\\b`), addStyle);
+    if(className.includes(addStyle.split("-")[0])) {
+      className = className.replace(new RegExp(`\\b${addStyle.split("-")[0]}-\\S*\\b`), addStyle);
     } else {
-      cn += addStyle
+      className += addStyle
     }
   }
 
   return (
     <>
-      <button className={cn}>
+      <button className={className}>
 				{msg}
 			</button>
     </>
