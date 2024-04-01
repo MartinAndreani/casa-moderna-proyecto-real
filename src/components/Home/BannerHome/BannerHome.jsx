@@ -2,7 +2,7 @@ import ButtonGetInfo from "../../common/ButtonGetInfo/ButtonGetInfo";
 
 const BannerHome = () => {
 	return (
-		<section className="flex flex-row p-28 gap-14 py-36 ml-[5rem]" id="home">
+		<section className="flex flex-row p-24 gap-14 py-36 ml-[5rem]" id="home">
 			<div className="flex flex-col justify-center gap-10 basis-1/2 text-left">
 				<p className="text-gray-500 text-xl -my-5">Casa Moderna</p>
 				<div className="flex flex-col gap-10">
@@ -15,14 +15,14 @@ const BannerHome = () => {
 					</p>
 				</div>
 				<div>
-					<ButtonGetInfo msg={"Solicitar cotización"} addStyle={"w-60 h-16"} />
+					<ButtonGetInfo msg={"Solicitar cotización"} addStyle={"w-60 h-14"} />
 				</div>
 			</div>
       <div className="pt-1.5">
           <img
             src="/images/home.png"
             alt="home casa moderna"
-            className="basis-1/2 h-[520px] w-[28rem] rounded-t-[12.5rem] shadow-2xl shadow-black"
+            className="h-[31rem] w-[28rem] rounded-t-[12.5rem] shadow-2xl shadow-black bg-cover"
           />
       </div>
 		</section>
