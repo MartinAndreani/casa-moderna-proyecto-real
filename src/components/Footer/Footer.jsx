@@ -94,7 +94,7 @@ const Footer = () => {
           </div>
 
 
-          <div className='flex justify-end relative  gap-5 w-40 md:top-20 right-12 md:right-0 top-12' >
+          <div className='flex justify-end relative gap-3  md:gap-5 w-40 md:top-20 right-16 md:right-0 top-12' >
             <div className=' flex justify-center items-center text-3xl  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 '><a target='_blank' href="https://www.facebook.com/casamodernamza"><FiFacebook /></a></div>
             <div className=' flex justify-center items-center text-3xl  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 '><a target='_blank' href="https://www.instagram.com/casa_moderna_mza?fbclid=IwAR1eyR-eROt_txlDmKaOI3fJqvDKjdLwTd3tumQx3SwtdEIkjjvPmoIwKEo"><FaInstagram /></a></div>
             <div className=' flex justify-center items-center text-3xl  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 '><a target='_blank' href="https://wa.link/hlvljp"><FaWhatsapp /></a></div>

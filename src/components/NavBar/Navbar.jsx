@@ -17,10 +17,11 @@ const Navbar = () => {
   ]
 
   let [isOpen, setisOpen] = useState(false)
+  
   return (
     <div>
         {/* Container */}
-        <div className='bg-nav h-28 flex items-center lg:justify-center justify-around  xl:gap-16 w-full fixed  '>
+        <div className='bg-nav h-28 flex items-center lg:justify-center justify-around  w-full   xl:gap-16 fixed  '>
 
           {/* Menu icon */}
 
