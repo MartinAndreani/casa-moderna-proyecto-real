@@ -5,7 +5,7 @@ const CarouselContainer = () => {
 
   return (
 
-    <div className=' h-[36rem] my-6  '>
+    <div className=' h-[35rem] my-6 '>
       
        <Carousel/>
     </div>

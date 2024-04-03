@@ -60,7 +60,7 @@ const Carousel = () => {
             </div>
 
 
-        <div className='flex justify-center  relative lg:px-6 text-3xl gap-2 cursor-pointer'onClick={() => setNext(!next)}  >
+        <div className='flex justify-center bottom-16 lg:bottom-28 relative lg:px-6 text-3xl gap-2 cursor-pointer'onClick={() => setNext(!next)}  >
             
             {
                 next ? <VscCircleLarge/> : <VscCircleLargeFilled/>
