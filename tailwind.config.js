@@ -15,11 +15,11 @@ export default {
         "roboto": ['"Roboto Flex"', 'sans-serif']  
       },
       backgroundImage: {
+
         "service": "url('images/services-end.png')",
         "emedue" : "url(src/assets/emedue.webp)",
         "seco" : "url(src/assets/seco.webp)" 
       },
-      
     },
   },
   plugins: ["flowbite/plugin"],
