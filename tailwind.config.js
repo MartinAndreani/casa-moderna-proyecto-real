@@ -5,6 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
     "node_modules/flowbite-react/lib/esm/**/*.js",
   ],
+  purge: false,
   theme: {
     extend: {
       colors:{
@@ -16,7 +17,7 @@ export default {
       },
       backgroundImage: {
 
-        "service": "url('images/services-end.png')",
+        "service": "url('images/servicios/services-end.png')",
         "emedue" : "url(src/assets/emedue.webp)",
         "seco" : "url(src/assets/seco.webp)" 
       },

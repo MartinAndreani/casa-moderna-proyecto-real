@@ -52,7 +52,7 @@ const Navbar = () => {
               <ul className='flex lg:flex-row flex-col  justify-center items-center  '>
 
                 {Links.map(link => (
-                  <li className='flex justify-center m-2  items-center w-28  text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'>
+                  <li key={link.name} className='flex justify-center m-2  items-center w-28  text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'>
                     <Link to={link.link} spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>
                       {link.name}
                     </Link>
