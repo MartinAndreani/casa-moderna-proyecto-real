@@ -3,6 +3,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    "node_modules/flowbite-react/lib/esm/**/*.js",
   ],
   theme: {
     extend: {
@@ -14,9 +15,12 @@ export default {
         "roboto": ['"Roboto Flex"', 'sans-serif']  
       },
       backgroundImage: {
-        "service": "url('images/servicios/services-end.png')"
-      }
+
+        "service": "url('images/services-end.png')",
+        "emedue" : "url(src/assets/emedue.webp)",
+        "seco" : "url(src/assets/seco.webp)" 
+      },
     },
   },
-  plugins: [],
+  plugins: ["flowbite/plugin"],
 }
