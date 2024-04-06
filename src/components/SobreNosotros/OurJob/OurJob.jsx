@@ -53,7 +53,7 @@ const OurJob = () => {
 			</div>
 			{/* <picture> */}
 			<img
-				className="bg-cover w-[44rem] overflow-hidden"
+				className="bg-cover w-[42rem] overflow-hidden"
 				src="/images/sobre-nosotros/ourjob.jpg"
 				alt=""
 			/>

@@ -5,8 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
     "node_modules/flowbite-react/lib/esm/**/*.js",
   ],
+  // purge: false,
   theme: {
     extend: {
+      animation: {
+        'infinite-scroll': 'scroll 35s linear infinite',
+      },
+      keyframes: {
+        'scroll': {
+          from: { transform: 'translateX(1.6%)' },
+          to: { transform: 'translateX(-100%)' },
+        }
+      },
       colors:{
         "nav": "#242021",
         "cursomGreen": "#4F7D3F"
@@ -16,7 +26,7 @@ export default {
       },
       backgroundImage: {
 
-        "service": "url('images/services-end.png')",
+        "service": "url('images/servicios/services-end.png')",
         "emedue" : "url(src/assets/emedue.webp)",
         "seco" : "url(src/assets/seco.webp)" 
       },
