@@ -5,9 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
     "node_modules/flowbite-react/lib/esm/**/*.js",
   ],
-  purge: false,
+  // purge: false,
   theme: {
     extend: {
+      animation: {
+        'infinite-scroll': 'scroll 35s linear infinite',
+      },
+      keyframes: {
+        'scroll': {
+          from: { transform: 'translateX(1.6%)' },
+          to: { transform: 'translateX(-100%)' },
+        }
+      },
       colors:{
         "nav": "#242021",
         "cursomGreen": "#4F7D3F"

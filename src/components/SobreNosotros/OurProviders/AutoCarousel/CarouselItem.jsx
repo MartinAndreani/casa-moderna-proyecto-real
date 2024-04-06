@@ -2,9 +2,9 @@ import PropTypes from 'prop-types'
 
 const CarouselItem = ({ imgUrl, imgTitle }) => {
   return (
-    <div className='flex justify-center items-center w-full h-full hover:scale-90 hover:shadow-lg transform transition duration-300 ease-in-out rounded-lg bg-gray-800'>
-      <img className="h-80 w-80 rounded-lg" src={imgUrl} alt={imgTitle}></img>
-    </div>
+    <li>
+      <img className='max-h-44' src={imgUrl} alt={imgTitle}></img>
+    </li>
   )
 }
 

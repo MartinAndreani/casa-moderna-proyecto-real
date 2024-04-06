@@ -2,7 +2,7 @@ import GalleryExperience from "./GalleryExperience/GalleryExperience";
 
 const OurExperience = () => {
 	return (
-		<div className="mt-16 flex flex-row justify-between mx-20 gap-16">
+		<div className="mt-16 flex flex-row justify-between mx-14 gap-16">
 			<div>
 				<GalleryExperience />
 			</div>
