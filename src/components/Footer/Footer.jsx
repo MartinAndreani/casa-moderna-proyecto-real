@@ -10,7 +10,7 @@ import { Link } from "react-scroll"
 
 const Footer = () => {
   return (
-    <div className='bg-nav text-white grid grid-cols-4  py-4'>
+    <div className='bg-nav text-white grid grid-cols-4  py-4 mt-10 pt-10'>
         
         {/* LOGO */}
         <div className=' flex justify-center' >
