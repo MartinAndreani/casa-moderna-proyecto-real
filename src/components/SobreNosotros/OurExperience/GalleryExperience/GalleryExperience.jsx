@@ -1,8 +1,8 @@
 const GalleryExperience = () => {
-	const className = "w-96 h-[17.5rem] object-cover rounded-md";
+	const className = "w-96 h-[17.5rem] object-cover rounded-md" ;
 
 	return (
-		<div className="flex items-center justify-center -z-50">
+		<div className="flex items-center justify-center -z-50" >
 			<div className="-mx-4 flex flex-row gap-5 relative -z-10">
 				<div className="flex flex-col gap-5">
 					<img

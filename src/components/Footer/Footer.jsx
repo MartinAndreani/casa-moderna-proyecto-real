@@ -45,11 +45,11 @@ const Footer = () => {
           </div>
           <div className='grid gap-2 py-2'>
             <div><Link to='home' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Home</Link></div>
-            <div><Link  to='home' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Sobre Nosotros</Link></div>
             <div><Link  to='sistemas' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Sistemas</Link></div>
             <div><Link  to='servicios' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Servicios</Link></div>
-            <div><Link  to='contacto' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Contacto</Link></div>
+            <div><Link  to='home' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Nosotros</Link></div>
             <div><Link  to='galeria' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Galeria</Link></div>
+            <div><Link  to='contacto' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Contacto</Link></div>
           </div>
           
         </div>

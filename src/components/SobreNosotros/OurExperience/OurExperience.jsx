@@ -2,12 +2,12 @@ import GalleryExperience from "./GalleryExperience/GalleryExperience";
 
 const OurExperience = () => {
 	return (
-		<div className="mt-16 flex flex-row justify-between mx-14 gap-16">
+		<div className="mt-16 flex flex-row justify-between mx-20 gap-16 py-6"id='nosotros' >
 			<div>
 				<GalleryExperience />
 			</div>
 			<div className="flex flex-col gap-4 w-[29rem] mb-8">
-				<p className="text-gray-500 text-xl self-start">Sobre Nosotros</p>
+				<p className="text-gray-500 text-xl self-start" >Sobre Nosotros</p>
 				<h2 className="text-5xl leading-[3.5rem] font-extrabold text-gray-600">
 					Construyendo con excelencia, calidad y liderazgo
 				</h2>
