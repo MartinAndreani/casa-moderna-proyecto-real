@@ -8,11 +8,11 @@ import { useState } from 'react';
 const Navbar = () => {
   let Links = [
     {name: 'Home', link:'home'},
-    {name: 'Nosotros', link:'nosotros'},
     {name: 'Sistemas', link:'sistemas'},
     {name: 'Servicios', link:'servicios'},
-    {name: 'Contacto', link:'contacto'},
+    {name: 'Nosotros', link:'nosotros'},
     {name: 'Galeria', link:'galeria'},
+    {name: 'Contacto', link:'contacto'},
     
   ]
 
@@ -59,11 +59,7 @@ const Navbar = () => {
                   </li>)
                 )}
 
-                {/*<li className='flex justify-center items-center w-28  text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300' ><Link to='home' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Sobre Nosotros</Link></li>
-                <li className='flex justify-center w-28 text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'><Link to='sistemas' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Sistemas</Link></li>
-                <li className='flex justify-center w-28 text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'><Link to='servicios' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Servicios</Link></li>
-                <li className='flex justify-center w-28 text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'><Link to='contacto' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Contactos</Link></li>
-                <li className='flex justify-center w-28 text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300'><Link to='galeria' spy={true} smooth={true} offset={-100} duration={800} className='cursor-pointer'>Galería</Link></li> */}
+                
                 </ul>
               
             </div>
