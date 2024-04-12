@@ -12,6 +12,7 @@ const ContactForm = () => {
 				</div>
 				<h5 className="font-bold text-2xl text-left -mb-5 p-8">¿Qué tipo de revestimiento necesitas?</h5>
 				<select className="w-[90%] rounded-xl h-auto p-5 bg-white border-[1px] border-gray-300 self-center">
+					<option value="" selected></option>
 					<option value="Microcemento y Porcelanato liquido">
 						Microcemento y Porcelanato liquido
 					</option>
