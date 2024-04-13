@@ -1,7 +1,7 @@
 const info = [
 	{
 		title: "Diseño",
-		body: `Llevamos tus ideas a la práctica. Construimos, remodelamos y transformamos tus ideas en necesidades en ideas y proyectos.  Analizamos, resolvemos y aplicamos.
+		body: `Llevamos tus ideas a la práctica. Construimos, remodelamos y transformamos necesidades en ideas y proyectos.  Analizamos, resolvemos y aplicamos.
     Tus sueños a la práctica.`,
 		img: "card1.jpg",
 	},

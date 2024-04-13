@@ -12,14 +12,14 @@ const OurExperience = () => {
 				<p className="text-gray-500 lg:mb-4 lg:text-2xl  lg:w-[27rem] mt-4">
 					Nuestra pasión es transformar tus sueños en realidad. <br />
 					Con una trayectoria de más de 10 años en la industria de la construcción, nos
-					orgullece haber dejado una huella duradera en la vida de nuestros clientes.
+					enorgullece haber dejado una huella duradera en la vida de nuestros clientes.
 					<br />
 					Creamos espacios únicos que reflejen tu personalidad y te brinden la comodidad y
 					el bienestar que mereces.
 				</p>
 			</div>
 
-			<div classnName=''>
+			<div>
 				<GalleryExperience />
 			</div>
 		</div>

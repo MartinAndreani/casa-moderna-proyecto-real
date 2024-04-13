@@ -7,7 +7,7 @@ const ShowEmail = () => {
 
 			<a
 				href="mailto:casamoderna.mza@gmail.com"
-				className="text-blue-400 text-xl hover:underline border-[1px] border-gray-300 p-4 self-stretch mx-10 rounded-xl text-left pl-10"
+				className="text-blue-400 text-xl hover:underline border-[1px] border-gray-300 p-4 self-stretch lg:mx-10 mx-5 rounded-xl text-left pl-10"
 			>
 				casamoderna.mza@gmail.com
 			</a>

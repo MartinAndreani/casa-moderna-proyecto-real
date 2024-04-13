@@ -20,7 +20,7 @@ const Construccion = ({ formData, onChange }) => {
 				<h5 className="font-bold text-2xl text-left p-8 -mb-5">
 					¿El proyecto de construcción consiste en una o dos plantas?
 				</h5>
-				<div className="flex justify-center gap-20">
+				<div className="flex justify-center gap-6 lg:gap-20">
 					<div className="flex gap-2">
 					<input type="radio" id="primero" name="plantas" value="1" />
 					<label htmlFor="primero">Una planta</label>
