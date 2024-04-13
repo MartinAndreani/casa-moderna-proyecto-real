@@ -16,7 +16,7 @@ const OurJob = () => {
 					</h2>
 					<p className={classNameParagraph}>
 						Desde la cotización gratuita hasta la entrega final, nuestro proceso de
-						trabajo eficiente y centrado en el cliente garantiza resultados excepcionales
+						trabajo eficiente y centrado en el cliente garantiza resultados únicos
 						en cada proyecto.
 					</p>
 				</div>
@@ -36,7 +36,7 @@ const OurJob = () => {
 						<h4 className={classNameH4}>Planificación y ejecución</h4>
 						<p className={classNameParagraph}>
 							Nos encargamos de la planificación y ejecución del proyecto, asegurando
-							resultados excepcionales.
+							que cada resultados sea extraordinario.
 						</p>
 					</div>
 				</div>

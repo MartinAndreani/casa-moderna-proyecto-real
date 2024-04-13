@@ -1,7 +1,7 @@
 const info = [
 	{
 		title: "Diseño",
-		body: `Llevamos tus ideas a la práctica. Construimos, remodelamos y transformamos tus ideas en necesidades en ideas y proyectos.  Analizamos, resolvemos y aplicamos.
+		body: `Llevamos tus ideas a la práctica. Construimos, remodelamos y transformamos tus necesidades en ideas y proyectos.  Analizamos, resolvemos y aplicamos.
     Tus sueños a la práctica.`,
 		img: "card1.jpg",
 	},
@@ -12,8 +12,8 @@ const info = [
 	},
 	{
 		title: "Obra comercial",
-		body: `Revestimientos para pisos, muros y piscinas.
-    Revestimiento con microcemento, estuco veneziano, porcelanato liquido, epoxi para piscinas.`,
+		body: `Durlock, pintura y revestimientos para pisos.
+    Revestimiento con microcemento, estuco veneziano, porcelanato liquido`,
 		img: "card3.png",
 	},
 	{

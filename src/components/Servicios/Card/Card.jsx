@@ -16,7 +16,9 @@ const Card = ({ img, title, body }) => {
 				<p className="text-gray-500 mb-4 text-xl ">{body}</p>
 			</div>
 			<div className="self-center mb-3">
-				<ButtonGetInfo msg={"Solicitar info vía WhatsApp"} />
+				<a target="_blank" href="https://wa.link/hlvljp">
+					<ButtonGetInfo msg={"Solicitar info vía WhatsApp"} />
+				</a>
 			</div>
 		</div>
 	);

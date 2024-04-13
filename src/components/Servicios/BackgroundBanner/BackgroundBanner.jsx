@@ -7,7 +7,9 @@ const BackgroundBanner = () => {
 				<h2 className="text-white text-4xl lg:text-6xl font-bold text-center ">
 					¡Contáctanos hoy mismo para convertir tus sueños en realidad!
 				</h2>
-				<ButtonGetInfo msg={"CONTACTANOS"} />
+				<a target="_blank" href="https://wa.link/hlvljp">
+					<ButtonGetInfo msg={"CONTACTANOS"} />
+				</a>
 			</div>
 		</div>
 	);

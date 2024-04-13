@@ -12,33 +12,39 @@ const Contacto = () => {
 		showContact = () => (
 			<div className="flex flex-col h-full">
 				<div className="self-center my-[25%] absolute z-0">
-				<div
-					className="h-20 w-20 animate-spin rounded-full border-8 border-solid border-current border-r-transparent motion-reduce:animate-[spin_1.5s_linear_infinite]"
-					role="status"
-				></div>
+					<div
+						className="h-20 w-20 animate-spin rounded-full border-8 border-solid border-current border-r-transparent motion-reduce:animate-[spin_1.5s_linear_infinite]"
+						role="status"
+					></div>
 				</div>
 				<InlineWidget
-					url="https://calendly.com/allannara99/meeting-allan"
-					styles={{ height: "100%", zIndex: 1 }}
+					url="https://calendly.com/casamoderna-mza/30min"
+					styles={{ height: "55rem", zIndex: 1 }}
 				/>
 			</div>
 		);
 	else if (state === "email") showContact = () => <ShowEmail />;
 
 	const classNameSection =
-		"w-64 h-60 border-[1px] border-black flex flex-col justify-center gap-5 rounded-xl";
+		"w-64 h-20 p-1 lg:h-60 border-[1px] border-black lg:flex lg:flex-col lg:justify-center gap-5 rounded-xl";
 	const classNameSectionSelected = "text-white bg-cursomGreen";
-	const classNameH5 = "font-bold text-2xl";
-	const classNameParagraph = "mx-auto max-w-56 font-normal text-2xl";
+	const classNameH5 = "font-bold text-lg lg:text-2xl";
+	const classNameParagraph = "mx-auto max-w-56 font-normal text-2xl hidden lg:block";
+
 	return (
-		<div className="text-center flex flex-col gap-8 mt-4 mx-20">
-			<p className=" text-gray-500 text-xl -mb-5">Contacto</p>
-			<h2 className=" text-[3.55rem] font-bold text-gray-600">Contáctate con nosotros</h2>
-			<p className=" text-gray-500 text-2xl mb-10">
+		<div
+			id="contacto"
+			className="text-center flex flex-col lg:gap-8 lg:mt-16 mt-4 lg:mx-20"
+		>
+			<p className=" text-gray-500 text-xl">Contacto</p>
+			<h2 className="text-3xl lg:text-[3.55rem] font-bold text-gray-600">
+				Contáctate con nosotros
+			</h2>
+			<p className=" text-gray-500 text-2xl mt-2 mb-10">
 				Elegí el canal de comunicación que mejor se ajuste a tus preferencias
 			</p>
-			<div className="flex">
-				<div className="p-10 pt-0 mx-3 text-[#5F5F5F] flex flex-col gap-7">
+			<div className="flex flex-col lg:flex-row">
+				<div className="lg:p-10 p-2 pt-0 lg:mx-3 text-[#5F5F5F] flex lg:flex-col gap-7">
 					<button
 						onClick={() => setState("form")}
 						className={`${classNameSection} ${
@@ -70,7 +76,7 @@ const Contacto = () => {
 					</button>
 				</div>
 
-				<div className="text-[#5F5F5F] border-[1px] border-gray-300 rounded-3xl w-[50rem] h-[55rem]">
+				<div className="text-[#5F5F5F] border-[1px] border-gray-300 rounded-3xl lg:w-[50rem] lg:min-h-[55rem] pb-5">
 					{showContact()}
 				</div>
 			</div>
