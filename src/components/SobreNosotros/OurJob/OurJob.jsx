@@ -2,16 +2,16 @@ import iconMsg from "../../../assets/vector-msg.svg";
 import iconNotebook from "../../../assets/vector-notebook.svg";
 import iconCalendar from "../../../assets/vector-calendar.svg";
 const OurJob = () => {
-	const classNameH4 = "-mb-2 text-cursomGreen font-bold text-[1.7rem] leading-8 w-[42rem]";
-	const classNameParagraph = "text-gray-500 mb-4 text-2xl max-w-[42rem] mt-4";
-	const className = "size-16";
+	const classNameH4 = "-mb-2 text-cursomGreen font-bold lg:text-[1.7rem] leading-8 lg:w-[42rem]";
+	const classNameParagraph = "text-gray-500 mb-4  lg:text-2xl lg:max-w-[42rem] lg:mt-4";
+	const className = "lg:size-16 size-10 ";
 	const classNameDiv = "flex flex-row gap-5";
 	
 	return (
 		<div className="bg-gray-100 flex flex-row justify-between mt-10">
-			<div className="pl-20 my-16 flex flex-col">
+			<div className="lg:pl-20 pl-12 my-16 flex flex-col">
 				<div className="mb-5">
-					<h2 className="text-5xl leading-[3.5rem] font-extrabold text-gray-600">
+					<h2 className="text-3xl lg:text-5xl leading-[3.5rem] font-extrabold text-gray-600 text-center lg:text-start">
 						Nuestro proceso de trabajo
 					</h2>
 					<p className={classNameParagraph}>
@@ -53,7 +53,7 @@ const OurJob = () => {
 			</div>
 			{/* <picture> */}
 			<img
-				className="bg-cover w-[42rem] overflow-hidden"
+				className="bg-cover lg:w-[42rem] hidden lg:block overflow-hidden"
 				src="/images/sobre-nosotros/ourjob.jpg"
 				alt=""
 			/>

@@ -27,11 +27,11 @@ const Footer = () => {
           </div>
 
           <div className='grid gap-2 py-2 pr-20 lg:pr-0'  >
-            <div><a href="/">Diseño</a></div>
-            <div><a href="/">Recidencial</a></div>
-            <div><a href="/">Obra Comercial</a></div>
-            <div ><a href="/" >Remodelación, ampliación y matenimiento</a></div>
-            <div><a href="/">Capacitación</a></div>
+            <div>Diseño</div>
+            <div>Recidencial</div>
+            <div>Obra Comercial</div>
+            <div >Remodelación, ampliación y matenimiento</div>
+            <div>Capacitación</div>
           </div>
           
         </div>
