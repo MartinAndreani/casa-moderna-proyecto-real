@@ -12,14 +12,14 @@ const Contacto = () => {
 		showContact = () => (
 			<div className="flex flex-col h-full">
 				<div className="self-center my-[25%] absolute z-0">
-				<div
-					className="h-20 w-20 animate-spin rounded-full border-8 border-solid border-current border-r-transparent motion-reduce:animate-[spin_1.5s_linear_infinite]"
-					role="status"
-				></div>
+					<div
+						className="h-20 w-20 animate-spin rounded-full border-8 border-solid border-current border-r-transparent motion-reduce:animate-[spin_1.5s_linear_infinite]"
+						role="status"
+					></div>
 				</div>
 				<InlineWidget
-					url="https://calendly.com/allannara99/meeting-allan"
-					styles={{ height: "55rem", zIndex: 1}}
+					url="https://calendly.com/casamoderna-mza/30min"
+					styles={{ height: "55rem", zIndex: 1 }}
 				/>
 			</div>
 		);
@@ -30,10 +30,16 @@ const Contacto = () => {
 	const classNameSectionSelected = "text-white bg-cursomGreen";
 	const classNameH5 = "font-bold text-lg lg:text-2xl";
 	const classNameParagraph = "mx-auto max-w-56 font-normal text-2xl hidden lg:block";
+
 	return (
-		<div className="text-center flex flex-col lg:gap-8 mt-4 lg:mx-20">
-			<p className=" text-gray-500 text-xl lg:-mb-5">Contacto</p>
-			<h2 className="text-3xl lg:text-[3.55rem] font-bold text-gray-600">Contáctate con nosotros</h2>
+		<div
+			id="contacto"
+			className="text-center flex flex-col lg:gap-8 lg:mt-16 mt-4 lg:mx-20"
+		>
+			<p className=" text-gray-500 text-xl">Contacto</p>
+			<h2 className="text-3xl lg:text-[3.55rem] font-bold text-gray-600">
+				Contáctate con nosotros
+			</h2>
 			<p className=" text-gray-500 text-2xl mt-2 mb-10">
 				Elegí el canal de comunicación que mejor se ajuste a tus preferencias
 			</p>
