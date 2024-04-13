@@ -17,7 +17,7 @@ const BannerContacto = () => {
                 </div>
             </div>
             <div >
-              <img src="src/assets/bannercontacto.webp" alt="" className='h-96'/>
+              <img src="src/assets/bannercontacto.webp" alt="" className=''/>
             </div>
 
           </div>

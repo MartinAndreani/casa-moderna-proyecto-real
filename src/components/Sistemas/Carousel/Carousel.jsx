@@ -23,7 +23,7 @@ const Carousel = () => {
                     </div>
 
                     <div className=''>
-                        <img src="src/assets/emedue.webp" alt="" className='' />
+                        <img src="src/assets/emedue.webp" alt="" className='h-96 top-5 md:top-0 relative' />
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@ const Carousel = () => {
                     </div>
 
                     <div className=' '>
-                        <img src="src\assets\seco.webp" alt="" className='' />
+                        <img src="src\assets\seco.webp" alt="" className='h-96 top-7 md:top-0 relative' />
                     </div>
                 </div>
             </div>
