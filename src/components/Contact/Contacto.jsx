@@ -70,7 +70,7 @@ const Contacto = () => {
 					</button>
 				</div>
 
-				<div className="text-[#5F5F5F] border-[1px] border-gray-300 rounded-3xl w-[50rem] h-[55rem]">
+				<div className="text-[#5F5F5F] border-[1px] border-gray-300 rounded-3xl w-[50rem] min-h-[55rem] pb-5">
 					{showContact()}
 				</div>
 			</div>
