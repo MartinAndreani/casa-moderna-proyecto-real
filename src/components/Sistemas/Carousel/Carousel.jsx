@@ -19,7 +19,7 @@ const Carousel = () => {
 
 					<div className="flex justify-center lg:gap-10 gap-4  ">
 						<div className=" lg:w-[26rem] xl:w-[33rem]  lg:text-xl  ">
-							<h5 className=" font-extrabold text-xl py-6 xl:mx-12 2xl:mx-56">
+							<h5 className=" font-extrabold text-3xl py-6  2xl:mx-56">
 								Sistema Constructivo Emmedue
 							</h5>
 							<p>
@@ -39,7 +39,7 @@ const Carousel = () => {
 					</div>
 					<div className="absolute lg:relative lg:w-auto w-full">
 						<img
-							src="public/images/sistemas/emmedue.png"
+							src="public/images/sistemas/emedue.webp"
 							alt="sistema emedue"
 							className="lg:h-96 lg:opacity-100 lg:top-5 md:top-0 relative h-[118vh] opacity-35"
 						/>
@@ -53,7 +53,7 @@ const Carousel = () => {
 				>
 					<div className="flex justify-center lg:gap-10 gap-4 ">
 						<div className=" lg:w-[35rem]  lg:text-xl ">
-							<h5 className=" font-extrabold text-3xl py-6 xl:mx-12 2xl:mx-56">
+							<h5 className=" font-extrabold text-3xl py-6  2xl:mx-56">
 								Sistema Construccion en Seco
 							</h5>
 							<p>
@@ -74,7 +74,7 @@ const Carousel = () => {
 
                         <div className="absolute lg:relative lg:w-auto w-full">
 							<img
-								src="public/images/sistemas/seco.png"
+								src="public/images/sistemas/seco.webp"
 								alt="construccion en seco"
                                 className="lg:h-96 lg:opacity-100 lg:top-5 md:top-0 relative h-[118vh] opacity-35"
 							/>
