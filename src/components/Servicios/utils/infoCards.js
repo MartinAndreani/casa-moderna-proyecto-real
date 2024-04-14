@@ -13,7 +13,7 @@ const info = [
 	{
 		title: "Obra comercial",
 		body: `Durlock, pintura y revestimientos para pisos.
-    Revestimiento con microcemento, estuco veneziano, porcelanato liquido`,
+    Revestimiento con microcemento, estuco veneziano, porcelanato líquido.`,
 		img: "card3.png",
 	},
 	{
@@ -26,7 +26,7 @@ const info = [
 		title: "Capacitaciones",
 		body: `La mejor manera de convertirte en un aplicador profesional en paredes y suelos.
     Curso de microcemento y resina epoxi.
-    Curso de porcelanato liquido.`,
+    Curso de porcelanato líquido.`,
 		img: "card5.png",
 	},
 ];

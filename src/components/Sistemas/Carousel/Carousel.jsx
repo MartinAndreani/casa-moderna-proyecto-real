@@ -54,7 +54,7 @@ const Carousel = () => {
 					<div className="flex justify-center lg:gap-10 gap-4 ">
 						<div className=" lg:w-[35rem]  lg:text-xl ">
 							<h5 className=" font-extrabold text-3xl py-6  2xl:mx-56">
-								Sistema Construccion en Seco
+								Sistema Construcción en Seco
 							</h5>
 							<p>
 								La construcción en seco es un método de construcción que implica la
