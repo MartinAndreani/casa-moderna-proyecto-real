@@ -25,7 +25,7 @@ export default {
         "roboto": ['"Roboto Flex"', 'sans-serif']  
       },
       backgroundImage: {
-        "service": "url('images/servicios/services-end.png')",
+        "service": "url('/images/servicios/services-end.png')",
       },
     },
   },
