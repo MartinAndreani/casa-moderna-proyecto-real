@@ -17,9 +17,9 @@ const Carousel = () => {
 				>
 					{/* Emmedue */}
 
-					<div className="flex justify-center lg:gap-10 gap-4  ">
-						<div className=" lg:w-[26rem] xl:w-[33rem]  lg:text-xl  ">
-							<h5 className=" font-extrabold text-3xl py-6  2xl:mx-56">
+					<div className="flex justify-center lg:gap-10 gap-4 ">
+						<div className=" lg:w-[26rem] xl:w-[33rem]  lg:text-xl z-20 ">
+							<h5 className=" font-extrabold text-3xl py-6 2xl:mx-56">
 								Sistema Constructivo Emmedue
 							</h5>
 							<p>
@@ -37,11 +37,11 @@ const Carousel = () => {
 							</p>
 						</div>
 					</div>
-					<div className="absolute lg:relative lg:w-auto w-full">
+					<div className="absolute lg:relative lg:w-auto w-full z-10">
 						<img
 							src="images/sistemas/emedue.webp"
 							alt="sistema emedue"
-							className="lg:h-96 lg:opacity-100 lg:top-5 md:top-0 relative h-[73vh] opacity-35 overflow-hidden"
+							className="lg:h-96 lg:opacity-100 lg:top-5 md:top-0 relative h-[60vh] w-[100vw] opacity-35 lg:w-auto"
 						/>
 					</div>
 				</div>
@@ -52,7 +52,7 @@ const Carousel = () => {
 					} flex justify-center gap-10 mx-10 md:mx-16 `}
 				>
 					<div className="flex justify-center lg:gap-10 gap-4 ">
-						<div className=" lg:w-[35rem]  lg:text-xl ">
+						<div className=" lg:w-[35rem]  lg:text-xl z-20">
 							<h5 className=" font-extrabold text-3xl py-6  2xl:mx-56">
 								Sistema Construccion en Seco
 							</h5>
@@ -72,28 +72,28 @@ const Carousel = () => {
 							</p>
 						</div>
 
-                        <div className="absolute lg:relative lg:w-auto w-full">
+						<div className="absolute lg:relative lg:w-auto w-full z-10">
 							<img
 								src="images/sistemas/seco.webp"
 								alt="construccion en seco"
-                                className="lg:h-96 lg:opacity-100 lg:top-5 md:top-0 relative h-[73vh] opacity-35 overflow-hidden"
+								className="lg:h-96 lg:opacity-100 lg:top-5 md:top-0 relative h-[60vh] opacity-35 w-[100vw] lg:w-auto"
 							/>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div className="bg-pink flex justify-between bottom-64 relative md:px-6 text-5xl">
+			<div className="bg-pink flex justify-between bottom-64 relative md:px-6 text-5xl z-20">
 				<button onClick={() => setNext(!next)}>
-					<IoIosArrowBack className="transition-all hover:translate-y-[-7px]  duration-500 ease-in-out" />
+					<IoIosArrowBack className="transition-all hover:translate-y-[-7px]  duration-500 ease-in-out z-20" />
 				</button>
 				<button onClick={() => setNext(!next)}>
-					<IoIosArrowForward className="transition-all hover:translate-y-[-7px]  duration-500 ease-in-out" />
+					<IoIosArrowForward className="transition-all hover:translate-y-[-7px]  duration-500 ease-in-out z-20" />
 				</button>
 			</div>
 
 			<div
-				className="flex justify-center bottom-16 lg:bottom-28 relative lg:px-6 text-3xl gap-2 cursor-pointer"
+				className="flex justify-center bottom-16 lg:bottom-28 relative lg:px-6 text-3xl gap-2 cursor-pointer z-20"
 				onClick={() => setNext(!next)}
 			>
 				{next ? <VscCircleLarge /> : <VscCircleLargeFilled />}
