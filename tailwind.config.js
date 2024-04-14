@@ -25,10 +25,8 @@ export default {
         "roboto": ['"Roboto Flex"', 'sans-serif']  
       },
       backgroundImage: {
-
-        "service": "url('public/images/servicios/services-end.png')",
-        "emedue" : "url(public/images/sistemas/emedue.webp)",
-        "seco" : "url(public/images/sistemas/seco.webp)" 
+        "service": "url('/images/servicios/services-end.png')",
+        "home": "url('/images/home/home.png')",
       },
     },
   },

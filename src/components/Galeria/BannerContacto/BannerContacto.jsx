@@ -17,7 +17,7 @@ const BannerContacto = () => {
                 </div>
             </div>
             <div className='hidden lg:block'>
-              <img src="public/images/galeria/bannercontacto.webp" alt="" className=''/>
+              <img src="images/galeria/bannercontacto.webp" alt="" className=''/>
             </div>
 
           </div>

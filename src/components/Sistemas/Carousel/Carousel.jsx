@@ -39,7 +39,7 @@ const Carousel = () => {
 					</div>
 					<div className="absolute lg:relative lg:w-auto w-full">
 						<img
-							src="public/images/sistemas/emedue.webp"
+							src="images/sistemas/emedue.webp"
 							alt="sistema emedue"
 							className="lg:h-96 lg:opacity-100 lg:top-5 md:top-0 relative h-[118vh] opacity-35 overflow-hidden"
 						/>
@@ -74,7 +74,7 @@ const Carousel = () => {
 
                         <div className="absolute lg:relative lg:w-auto w-full">
 							<img
-								src="public/images/sistemas/seco.webp"
+								src="images/sistemas/seco.webp"
 								alt="construccion en seco"
                                 className="lg:h-96 lg:opacity-100 lg:top-5 md:top-0 relative h-[118vh] opacity-35 overflow-hidden"
 							/>
