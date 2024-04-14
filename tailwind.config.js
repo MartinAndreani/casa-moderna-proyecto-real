@@ -26,6 +26,7 @@ export default {
       },
       backgroundImage: {
         "service": "url('/images/servicios/services-end.png')",
+        "home": "url('/home.png')",
       },
     },
   },

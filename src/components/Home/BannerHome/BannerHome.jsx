@@ -20,7 +20,7 @@ const BannerHome = () => {
 					</a>
 				</div>
 			</div>
-			<div className="pt-1.5 bg-[url('public/images/home.png')]  h-[31rem] w-96 lg:w-[28rem] rounded-t-[12.5rem] shadow-2xl shadow-black bg-cover lg:mt-16"></div>
+			<div className="pt-1.5 bg-home h-[31rem] w-96 lg:w-[28rem] rounded-t-[12.5rem] shadow-2xl shadow-black bg-cover lg:mt-16"></div>
 		</section>
 	);
 };
