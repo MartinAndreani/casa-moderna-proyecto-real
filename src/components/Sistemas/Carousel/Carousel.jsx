@@ -41,7 +41,7 @@ const Carousel = () => {
 						<img
 							src="public/images/sistemas/emedue.webp"
 							alt="sistema emedue"
-							className="lg:h-96 lg:opacity-100 lg:top-5 md:top-0 relative h-[118vh] opacity-35"
+							className="lg:h-96 lg:opacity-100 lg:top-5 md:top-0 relative h-[118vh] opacity-35 overflow-hidden"
 						/>
 					</div>
 				</div>
@@ -76,7 +76,7 @@ const Carousel = () => {
 							<img
 								src="public/images/sistemas/seco.webp"
 								alt="construccion en seco"
-                                className="lg:h-96 lg:opacity-100 lg:top-5 md:top-0 relative h-[118vh] opacity-35"
+                                className="lg:h-96 lg:opacity-100 lg:top-5 md:top-0 relative h-[118vh] opacity-35 overflow-hidden"
 							/>
 						</div>
 					</div>
