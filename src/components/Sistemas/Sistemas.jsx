@@ -5,7 +5,7 @@ import CarouselContainer from './Carousel/CarouselContainer';
 const Sistemas = () => {
   return (
     <div >
-      <div className='bg-black text-white py-5 lg:h-[46rem] ' id='sistemas'>
+      <div className='bg-black text-white py-5 lg:h-[46rem]' id='sistemas'>
           <div>
             <p className="text-center  text-xl" >Sistemas</p>
           </div>
