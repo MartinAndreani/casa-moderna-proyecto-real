@@ -11,7 +11,7 @@ const BannerHome = () => {
 					</h1>
 					<p className="text-gray-500 mb-4 text-xl lg:w-[27rem]">
 						Servicios de construcción, edificación, remodelaciones y mantenimiento en
-						general para el sector publico y privado.
+						general para el sector público y privado.
 					</p>
 				</div>
 				<div>
