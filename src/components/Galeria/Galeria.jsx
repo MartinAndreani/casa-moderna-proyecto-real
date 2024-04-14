@@ -6,17 +6,17 @@ import BannerContacto from './BannerContacto/BannerContacto'
 const GaleriaContainer = () => {
 
   const images= [
-    "src/assets/gal1.webp",
-    "src/assets/gal2.webp",
-    "src/assets/gal3.webp",
-    "src/assets/gal4.webp",
-    "src/assets/gal5.webp",
-    "src/assets/gal6.webp",
-    "src/assets/gal7.webp",
-    "src/assets/gal8.webp",
-    "src/assets/gal9.webp",
-    "src/assets/gal10.webp",
-    "src/assets/gal11.webp",
+    "public/images/galeria/gal1.webp",
+    "public/images/galeria/gal2.webp",
+    "public/images/galeria/gal3.webp",
+    "public/images/galeria/gal4.webp",
+    "public/images/galeria/gal5.webp",
+    "public/images/galeria/gal6.webp",
+    "public/images/galeria/gal7.webp",
+    "public/images/galeria/gal8.webp",
+    "public/images/galeria/gal9.webp",
+    "public/images/galeria/gal10.webp",
+    "public/images/galeria/gal11.webp",
   ]
 
   return (

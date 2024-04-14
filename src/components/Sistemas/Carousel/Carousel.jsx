@@ -17,9 +17,9 @@ const Carousel = () => {
 				>
 					{/* Emmedue */}
 
-					<div className="flex justify-center lg:gap-10 gap-4 ">
-						<div className=" lg:w-[35rem]  lg:text-xl">
-							<h5 className=" font-extrabold text-3xl py-6 xl:mx-12 2xl:mx-56">
+					<div className="flex justify-center lg:gap-10 gap-4  ">
+						<div className=" lg:w-[27rem]  lg:text-xl  ">
+							<h5 className=" font-extrabold text-xl py-6 xl:mx-12 2xl:mx-56">
 								Sistema Constructivo Emmedue
 							</h5>
 							<p>
@@ -39,9 +39,9 @@ const Carousel = () => {
 					</div>
 					<div className="absolute lg:relative lg:w-auto w-full">
 						<img
-							src="src/assets/emedue.webp"
+							src="public/images/sistemas/emedue.webp"
 							alt="sistema emedue"
-							className="lg:h-96 lg:opacity-100 lg:top-5 md:top-0 relative h-[75vh] opacity-35"
+							className="lg:h-96 lg:opacity-100 lg:top-5 md:top-0 relative h-[120vh] opacity-35"
 						/>
 					</div>
 				</div>
@@ -74,9 +74,9 @@ const Carousel = () => {
 
                         <div className="absolute lg:relative lg:w-auto w-full">
 							<img
-								src="src\assets\seco.webp"
+								src="public/images/sistemas/seco.webp"
 								alt="construccion en seco"
-                                className="lg:h-96 lg:opacity-100 lg:top-5 md:top-0 relative h-[75vh] opacity-35"
+                                className="lg:h-96 lg:opacity-100 lg:top-5 md:top-0 relative h-[120vh] opacity-35"
 							/>
 						</div>
 					</div>

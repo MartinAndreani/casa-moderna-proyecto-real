@@ -26,9 +26,9 @@ export default {
       },
       backgroundImage: {
 
-        "service": "url('images/servicios/services-end.png')",
-        "emedue" : "url(src/assets/emedue.webp)",
-        "seco" : "url(src/assets/seco.webp)" 
+        "service": "url('public/images/servicios/services-end.png')",
+        "emedue" : "url(public/images/sistemas/emedue.webp)",
+        "seco" : "url(public/images/sistemas/seco.webp)" 
       },
     },
   },
